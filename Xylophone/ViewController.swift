@@ -18,6 +18,25 @@ class ViewController: UIViewController {
     @IBAction func keyPressed(_ sender: UIButton) {
         
         print("I got pressed")
+        
+        switch sender.currentTitle {
+        case "C":
+            print("C")
+        case "D":
+            print("D")
+        case "E":
+            print("E")
+        case "F":
+            print("F")
+        case "G":
+            print("G")
+        case "A":
+            print("A")
+        case "B":
+            print("B")
+        default:
+            print("none")
+        }
     }
     
 
